@@ -12,4 +12,5 @@ The project will be primarily implemented using Unity. Sketch, a user interface 
 
 ## Division of Labor
 Scott Blechman: Visual design, project structure, environment modeling
+
 Fox Bolduc: Software design and implementation

@@ -37,7 +37,7 @@ The focus exercise aims to teach users about one of the core mindfulness princip
 
 #### Deep Breathing
 ![Deep Breathing](./Images/DeepBreathing.PNG)
-(Scott, again tell them why this works)
+By itself, practicing elongated breathing has been shown to reduce stress and pain sensitivity, and has been linked to a reduction in negative emotions such as anger and anxiety. In mindfulness practice, breathing is a common sensation to concentrate on, a similar role to the focus dot in the previous exercise. By concentrating on controlling one's breath, a person has both less tendency to be lost in thoughts and, when thoughts arise, has something to concentrate on to shift focus away from the thoughts. By providing a diagram in the deep breathing exercise to syncronize breathing with, the application is able to help users practice controlling their breathing.
 
 ## Implementation
 ### Player

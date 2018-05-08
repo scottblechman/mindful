@@ -1,7 +1,8 @@
 # Mindful: a VR meditation experience
 The purpose of Mindful is to create an immersive experience using virtual reality to practice mindfulness habits. The use of virtual reality allows for the user to be present in a calming environment, free of outside factors. The application also guides the user through different meditation techniques, and will be an effective tool to educate users on mindfulness and meditation practices.
 
-## Video Demo
+[Video Demo](https://www.youtube.com/edit?o=U&video_id=K1y6A8I5S-0)
+
 
 ## Overview
 In addition to the primary purpose of providing a mindful environment in virtual reality, a major purpose of the application is to educate users on meditation and mindfulness practices that can be applied in everyday life. Through the application, users will be guided through meditation, including practicing correct posture, and learn different well-known techniques.
@@ -41,8 +42,10 @@ By itself, practicing elongated breathing has been shown to reduce stress and pa
 
 ## Implementation
 ### Player
+![Player Object](./Images/PlayerStructure.PNG)
 
 ### VR Interactions
+![VR Interactions](./Images/Interactable.PNG);
 
 ### Focus
 

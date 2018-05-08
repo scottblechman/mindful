@@ -62,12 +62,19 @@ By itself, practicing elongated breathing has been shown to reduce stress and pa
 
 ### VR Interactions
 ![VR Interactions](./Images/Interactable.PNG)
+The water shown here is an example of an interactive object. For Daydream apps, interactive objects require at minimum the following two elements:
+1. A collider - This is what the raycaster is able to point to in order to select the object.
+2. An event trigger - This allows the item to make function calls in the scene, in this instance, when the pointer is clicked the noise of the water increases and a random water sound is played.
+
+Scripts used by the event trigger may be on other objects, for instance PlayWaterSound was not on the triggering object in this instance, it came from a separate audio source object.
 
 ### Focus
 ![Focus Exercise](./Images/Focus2.PNG)
+The focus exercise is easy to implement. Using a coroutine, a focus object given to the script was cloned and moved with the player out of rendering distance of the menues. Then messages are sent to the HUD to instruct the player on what to do. Once the exercise is over, the player and object return to their normal spaces.
 
 ### Deep Breathing
 ![Deep Breathing Exercise](./Images.DeepBreathing.PNG)
+The deep breathing exercise is similar to the focus exercise. It uses a coroutine to take an object and a background (a blue and a white sphere respectively) and moves them and the player far away from the menu. The spheres line up with the background behind the focus. The Background is scaled up to be larger than the focus. The focus updates every frame to either enlarge or shrink, alternating when it reaches its full size and once it reaches less than it's initial size.
 
 ## Division of Labor
 Scott Blechman: Visual design, project structure, environment modeling

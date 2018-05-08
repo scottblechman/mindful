@@ -73,7 +73,7 @@ Scripts used by the event trigger may be on other objects, for instance PlayWate
 The focus exercise is easy to implement. Using a coroutine, a focus object given to the script was cloned and moved with the player out of rendering distance of the menues. Then messages are sent to the HUD to instruct the player on what to do. Once the exercise is over, the player and object return to their normal spaces.
 
 ### Deep Breathing
-![Deep Breathing Exercise](./Images.DeepBreathing.PNG)
+![Deep Breathing Exercise](./Images/DeepBreathing.PNG)
 The deep breathing exercise is similar to the focus exercise. It uses a coroutine to take an object and a background (a blue and a white sphere respectively) and moves them and the player far away from the menu. The spheres line up with the background behind the focus. The Background is scaled up to be larger than the focus. The focus updates every frame to either enlarge or shrink, alternating when it reaches its full size and once it reaches less than it's initial size.
 
 ## Division of Labor

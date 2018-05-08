@@ -16,7 +16,7 @@ The project will be primarily implemented using Unity. Sketch, a user interface 
 ### Peaceful Meadow
 This is the entry point for users. This scene is meant to provide a pleasant place for the user to unwind and relax before moving on to the exercises. It has a simple and colorful low-poly aesthetic that is easy on the eyes and plays calming ambient sound.
 
-![Landscape]("./Images/First View.PNG")
+![Landscape]("./Images/FirstView.PNG")
 Peaceful landscape of rolling hills, trees, and snow covered mountains
 
 ![Clouds](./Images/Clouds.PNG)

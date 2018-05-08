@@ -29,14 +29,14 @@ Small pool of water with stones in it. Users may click the water to play a sound
 To continue to the meditation exercises, user click this bowl and are transfered to a new scene.
 
 ### Meditation
-This scene houses both of our simple meditation and mindfulness techniques. The color used for the environment is called "eigengrau" (#16161D) and is the color we normally see when we close our eyes. The following two exercises are meant to relax the user and allow them to focus on mindfulness.
+This scene houses both of our simple meditation and mindfulness techniques. The color used for the environment is called "Eigengrau" (#16161D) and is the color we normally see when we close our eyes. The following two exercises are meant to relax the user and allow them to focus on mindfulness.
 
 #### Focus
 ![Focus](./Images/Focus.PNG)
-(Scott, fill the people in on why this works)
+The focus exercise aims to teach users about one of the core mindfulness principles: detatching from inner thoughts and practicing mental stillness. As the quote explains at the beginning of the exercise, consciously focusing on a single point is one way to directly focus on something in the present and exist outside of one's thoughts. This principle can be expanded upon to teach users about some of the most important mindfulness habits: using stimuli from the outside world to focus oneself outward instead of inward, and being consciously aware of things around them.
 
 #### Deep Breathing
-![Deep Breathing[(./Images/DeepBreathing.PNG)
+![Deep Breathing](./Images/DeepBreathing.PNG)
 (Scott, again tell them why this works)
 
 ## Implementation

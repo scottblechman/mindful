@@ -13,6 +13,12 @@ The application is targeted at VR platforms, such as Google Cardboard and the Oc
 ## Tools
 The project will be primarily implemented using Unity. Sketch, a user interface tool, will be used to plan the visual design of the application. Most of the model assets will be obtained from [Google Poly](https://poly.google.com/). Other assets will be required, such as sound and possibly voice-over audio. Attributions for these will be made available as assets are obtained, where applicable.
 
+(Google VR SDK for Unity)[https://developers.google.com/vr/develop/unity/get-started-android]
+
+(Daydream Elements for Unity)[https://developers.google.com/vr/elements/overview]
+
+(Airdroid)[https://www.airdroid.com/] (for those of you wondering how I screen mirrored this)
+
 ## Scenes
 ### Peaceful Meadow
 This is the entry point for users. This scene is meant to provide a pleasant place for the user to unwind and relax before moving on to the exercises. It has a simple and colorful low-poly aesthetic that is easy on the eyes and plays calming ambient sound.
@@ -43,13 +49,26 @@ By itself, practicing elongated breathing has been shown to reduce stress and pa
 ## Implementation
 ### Player
 ![Player Object](./Images/PlayerStructure.PNG)
+- Empty player object containing scripts to move the player when necessary
+  - MainCamera is the camera for the scene and recognized as the head by GoogleVR
+    - The Heads Up Display (HUD) is a text window positioned in front of the camera to send messages to the player
+  - OjectManipulationPointer contains all the control scripts for the Daydream Controller
+    - ControllerVisual is just what it sounds like
+    - Laser contains a raycaster and the the reticle
+      -Reticle sits at the end of the raycaster to visually show selections
+      - FlexLaser_GEO is the special laser used for ObjectManipulationPointer
+  - Audio Source on the player is used for ambient noises
+- (Particle system just somehow made it into the picture, it's not part of player)
 
 ### VR Interactions
-![VR Interactions](./Images/Interactable.PNG);
+![VR Interactions](./Images/Interactable.PNG)
 
 ### Focus
+![Focus Exercise](./Images/Focus2.PNG)
 
 ### Deep Breathing
+![Deep Breathing Exercise](./Images.DeepBreathing.PNG)
+
 ## Division of Labor
 Scott Blechman: Visual design, project structure, environment modeling
 

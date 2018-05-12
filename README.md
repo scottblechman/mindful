@@ -2,6 +2,7 @@
 The purpose of Mindful is to create an immersive experience using virtual reality to practice mindfulness habits. The use of virtual reality allows for the user to be present in a calming environment, free of outside factors. The application also guides the user through different meditation techniques, and will be an effective tool to educate users on mindfulness and meditation practices.
 
 [Video Demo](https://www.youtube.com/watch?time_continue=29&v=K1y6A8I5S-0)
+
 [Test this app](https://docs.google.com/spreadsheets/d/1_EfxZEP15vrj7mj-7cmF-nl7xJMHLXjRWsPdNN-H1cs/edit?usp=sharing)
 
 
@@ -14,11 +15,11 @@ The application is targeted at VR platforms, such as Google Cardboard and the Oc
 ## Tools
 The project will be primarily implemented using Unity. Sketch, a user interface tool, will be used to plan the visual design of the application. Most of the model assets will be obtained from [Google Poly](https://poly.google.com/). Other assets will be required, such as sound and possibly voice-over audio. Attributions for these will be made available as assets are obtained, where applicable.
 
-(Google VR SDK for Unity)[https://developers.google.com/vr/develop/unity/get-started-android]
+[Google VR SDK for Unity](https://developers.google.com/vr/develop/unity/get-started-android)
 
-(Daydream Elements for Unity)[https://developers.google.com/vr/elements/overview]
+[Daydream Elements for Unity](https://developers.google.com/vr/elements/overview)
 
-(Airdroid)[https://www.airdroid.com/] (for those of you wondering how I screen mirrored this)
+[Airdroid](https://www.airdroid.com/) (for those of you wondering how I screen mirrored this)
 
 ## Scenes
 ### Peaceful Meadow

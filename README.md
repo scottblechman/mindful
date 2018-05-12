@@ -2,6 +2,7 @@
 The purpose of Mindful is to create an immersive experience using virtual reality to practice mindfulness habits. The use of virtual reality allows for the user to be present in a calming environment, free of outside factors. The application also guides the user through different meditation techniques, and will be an effective tool to educate users on mindfulness and meditation practices.
 
 [Video Demo](https://www.youtube.com/watch?time_continue=29&v=K1y6A8I5S-0)
+[Test this app](https://docs.google.com/spreadsheets/d/1_EfxZEP15vrj7mj-7cmF-nl7xJMHLXjRWsPdNN-H1cs/edit?usp=sharing)
 
 
 ## Overview
